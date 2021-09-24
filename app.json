@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "ULearn is an Online Learning and Teaching platform. Main Goal of ULearn is to give Students and Teachers a state of the art Interface to facilitate seamleass learning and providing the best experience possible."
   }
 }

@@ -15,6 +15,7 @@ export default function App() {
     <>
       <Tab.Navigator
         initialRouteName="Explore"
+        detachInactiveScreens={true}
         screenOptions={{
           tabBarStyle: styles.tabBarStyle,
           tabBarActiveTintColor: Color.tabBlue,

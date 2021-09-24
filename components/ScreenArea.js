@@ -7,7 +7,7 @@ export default function App(props) {
   return (
     <SafeAreaView style={[styles.screenStyle, { backgroundColor: props.screenColor }]}>
       {props.children}
-      <StatusBar style="auto" backgroundColor={Color.buttonBlue} />
+      <StatusBar style="dark" backgroundColor={Color.lightlightGrey} />
     </SafeAreaView>
   )
 }

@@ -44,5 +44,14 @@ const popularCourseData = [
     price: 550,
     tags: ['BestSeller'],
   },
+  {
+    index: 6,
+    coursename: 'Blender Full CS',
+    teacher: 'Teacher1',
+    fav: 1,
+    star: 4,
+    price: 550,
+    tags: ['BestSeller'],
+  },
 ]
 export default popularCourseData

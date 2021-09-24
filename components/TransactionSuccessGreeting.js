@@ -19,14 +19,14 @@ const styles = StyleSheet.create({
     // color: '#20232a',
     justifyContent: 'center',
     textAlign: 'center',
-    fontSize: 30,
+    fontSize: 25,
     fontWeight: 'bold',
     marginHorizontal: 10,
   },
   text: {
     color: Color.textGrey,
     textAlign: 'center',
-    fontSize: 18,
+    fontSize: 15,
     marginTop: 20,
   },
   text1: {

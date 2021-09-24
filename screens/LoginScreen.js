@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 import Input from '../components/InputComponent'
 import Button from '../components/Button'
 const LoginScreen = ({ navigation }) => {
-  const [text, changeText] = React.useState(' ')
+  const [text, changeText] = React.useState('')
   const Textplaceholder = 'Input Here'
   return (
     <>
@@ -15,7 +15,7 @@ const LoginScreen = ({ navigation }) => {
         placeholder={Textplaceholder}
         customStyle={styles.inputStyle}
       />
-      <Button tagName="login without check" onPress={() => navigation.push('PickFavourite')} />
+      <Button tagName="Test Login" onPress={() => navigation.push('PickFavourite')} />
     </>
   )
 }

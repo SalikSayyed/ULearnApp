@@ -19,7 +19,7 @@ export default function Home() {
       <Stack.Screen name="CreateAccount" component={LoginScreen} />
       <Stack.Screen name="PickFavourite" component={IntrestSelection} />
       <Stack.Screen name="SetNewPassword" component={TransactionScreen} />
-      <Stack.Screen name="TransactionSuccess" component={CourseListScreen} />
+      <Stack.Screen name="TransactionSuccess" component={TransactionScreen} />
       <Stack.Screen name="TransactionFail" component={CourseListScreen} />
       <Stack.Screen name="CourseSearchScreen" component={CourseListScreen} />
       <Stack.Screen name="MainTabScreen" component={TabNavigator} />

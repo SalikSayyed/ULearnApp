@@ -6,6 +6,7 @@ import interestData from '../config/IntrestData'
 import Button from '../components/Button'
 
 export default function InterestCombo({ navigation }) {
+  const _keyExtractor = (item, index) => index.toString()
   return (
     <View style={styles.listStyle}>
       <FlatList
@@ -14,14 +15,15 @@ export default function InterestCombo({ navigation }) {
         style={styles.flatStyle}
         numColumns={3}
         data={interestData}
-        renderItem={({ item, index }) => {
-          return <IntrestSelection key={index} label={item.label} textIcon={item.textIcon} />
+        keyExtractor={_keyExtractor}
+        renderItem={({ item }) => {
+          return <IntrestSelection label={item.label} textIcon={item.textIcon} />
         }}
       />
       <Button
         tagName="Let's Begin"
         onPress={() => {
-          navigation.push('MainTabScreen')
+          navigation.push('TransactionSuccess')
         }}
       />
     </View>

@@ -8,7 +8,6 @@ import Box from '../components/Box'
 import xml from '../assets/bloom'
 
 const Transaction = ({ navigation }) => {
-  const [fullScreen, changeFullScreen] = React.useState(false)
   return (
     <View style={styles.screenStyle}>
       <Box svg={xml} customBoxStyle={styles.box} />
@@ -19,8 +18,7 @@ const Transaction = ({ navigation }) => {
       <Button
         tagName="Go to my course"
         onPress={() => {
-          navigation.setOptions({ tabBarStyle: { height: fullScreen ? 0 : 66 } })
-          changeFullScreen(!fullScreen)
+          navigation.push('CreateAccount')
         }}
         customeStyle={styles.buttonStyle}
       />
@@ -28,7 +26,7 @@ const Transaction = ({ navigation }) => {
       <LinkButton
         tagName="Back to Home"
         onPress={() => {
-          navigation.navigate('Explore')
+          navigation.navigate('MainTabScreen')
         }}
       />
     </View>

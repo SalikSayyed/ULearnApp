@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet, Text, TouchableWithoutFeedback } from 'react-native'
+import { View, StyleSheet, Platform, Text, TouchableWithoutFeedback } from 'react-native'
 import Color from '../config/Colors'
 import AppText from './AppText'
 
@@ -19,7 +19,14 @@ export default function IntrestSelection({ label, textIcon }) {
           >
             <Text style={styles.checkStyle}>{select ? '✔' : ''}</Text>
           </View>
-          <Text style={styles.insideText}>{textIcon}</Text>
+          <Text
+            style={[
+              styles.insideText,
+              { color: Platform.OS === 'web' ? Color.black : Color.white },
+            ]}
+          >
+            {textIcon}
+          </Text>
         </View>
         <AppText text={label} customStyle={styles.labelStyle} />
       </View>
