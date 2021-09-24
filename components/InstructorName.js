@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native'
 
 import Color from '../config/Colors'
 import AppText from './AppText'
-import Ion from 'react-native-vector-icons/Ionicons'
+import Ion from '@expo/vector-icons/Ionicons'
 
 const InstructorName = ({ text }) => {
   return (

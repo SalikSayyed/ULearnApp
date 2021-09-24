@@ -9,8 +9,9 @@ const PopularCourseList = ({ ...otherProps }) => (
     {...otherProps}
     horizontal={true}
     showsHorizontalScrollIndicator={false}
-    renderItem={({ item }) => (
+    renderItem={({ item, index }) => (
       <CourseCard
+        key={index}
         image={require('../assets/index1_lot1_cat1.png')}
         courseName={item.coursename}
         instructorName={item.teacher}

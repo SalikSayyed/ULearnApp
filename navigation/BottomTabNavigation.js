@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Platform } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import OctIcons from 'react-native-vector-icons/Ionicons'
+import OctIcons from '@expo/vector-icons/Ionicons'
 import ExploreScreen from '../screens/ExploreScreen'
 import MyCourseScreen from '../screens/MyCourseScreen'
 import TransactionSuccesScreen from '../screens/TransactionSuccessScreen'

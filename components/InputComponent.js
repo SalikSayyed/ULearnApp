@@ -1,7 +1,8 @@
 import React from 'react'
 import { View, TextInput, StyleSheet } from 'react-native'
-import OctIcons from 'react-native-vector-icons/Ionicons'
+import OctIcons from '@expo/vector-icons/Ionicons'
 import Color from '../config/Colors'
+
 const InputComponent = ({ hide, iconName, value, onChangeValue, customStyle, ...otherProps }) => {
   const [protect, changeProtect] = React.useState(hide ? true : false)
   return (
