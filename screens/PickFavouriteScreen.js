@@ -14,8 +14,8 @@ export default function InterestCombo({ navigation }) {
         style={styles.flatStyle}
         numColumns={3}
         data={interestData}
-        renderItem={({ item }) => {
-          return <IntrestSelection key={item.label} label={item.label} textIcon={item.textIcon} />
+        renderItem={({ item, index }) => {
+          return <IntrestSelection key={index} label={item.label} textIcon={item.textIcon} />
         }}
       />
       <Button
