@@ -1,0 +1,48 @@
+const popularCourseData = [
+  {
+    index: 1,
+    coursename: 'Web Designing Fundamentals',
+    teacher: 'Some Guy',
+    fav: 1,
+    star: 4,
+    price: 150,
+    tags: ['BestSeller'],
+  },
+  {
+    index: 2,
+    coursename: 'React Fundamentals',
+    teacher: 'Teacher1',
+    fav: 1,
+    star: 4,
+    price: 250,
+    tags: ['BestSeller'],
+  },
+  {
+    index: 3,
+    coursename: 'Design Fundamentals',
+    teacher: 'Teacher1',
+    fav: 1,
+    star: 4,
+    price: 400,
+    tags: ['BestSeller'],
+  },
+  {
+    index: 4,
+    coursename: 'React-Native Testing with Jest',
+    teacher: 'Teacher1',
+    fav: 1,
+    star: 4,
+    price: 300,
+    tags: ['BestSeller'],
+  },
+  {
+    index: 5,
+    coursename: 'Blender Full Course',
+    teacher: 'Teacher1',
+    fav: 1,
+    star: 4,
+    price: 550,
+    tags: ['BestSeller'],
+  },
+]
+export default popularCourseData
