@@ -37,15 +37,15 @@ const CourseCard = ({ courseName, instructorName, price, image }) => {
 
 const styles = {
   cardStyle: {
-    width: 180,
-    height: 210,
+    width: 182,
+    height: 220,
     backgroundColor: Color.white,
     borderRadius: 25,
     marginHorizontal: 5,
     marginVertical: 10,
   },
   imageStyle: {
-    width: 180,
+    width: 182,
     position: 'relative',
     height: 130,
     borderRadius: 20,
