@@ -5,6 +5,7 @@ import TransactionScreen from '../screens/TransactionSuccessScreen'
 import LoginScreen from '../screens/LoginScreen'
 import IntrestSelection from '../screens/PickFavouriteScreen'
 import TabNavigator from '../navigation/BottomTabNavigation'
+// import SignupScreen from '../screens/SignupScreen'
 
 const Stack = createStackNavigator()
 
