@@ -2,11 +2,18 @@ import React from 'react'
 import { StyleSheet, Platform } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import OctIcons from '@expo/vector-icons/Ionicons'
-import ExploreScreen from '../screens/ExploreScreen'
+// import ExploreScreen from '../screens/ExploreScreen'
 import MyCourseScreen from '../screens/MyCourseScreen'
 import TransactionSuccesScreen from '../screens/TransactionSuccessScreen'
 import CourseSearchResult from '../screens/CourseSearchResult'
 import Color from '../config/Colors'
+import SignupScreen from '../screens/SignupScreen'
+// import SignupScreen from '../screens/SignupScreen'
+// import InterestSelection from '../components/IntrestsSelection'
+// import SocialMedia from '../components/SocialMedia'
+// import PickSocialMedia from '../screens/PickSocialMedia'
+// import Setpassword from '../screens/Setpassword'
+// import TopicWise from '../screens/TopicWise'
 
 const Tab = createBottomTabNavigator()
 
@@ -27,7 +34,7 @@ export default function App() {
       >
         <Tab.Screen
           name="Explore"
-          component={ExploreScreen}
+          component={SignupScreen}
           options={{
             tabBarIcon: ({ focused, color }) => (
               <OctIcons

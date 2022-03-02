@@ -6,7 +6,7 @@ import LoginScreen from '../screens/LoginScreen'
 import IntrestSelection from '../screens/PickFavouriteScreen'
 import TabNavigator from '../navigation/BottomTabNavigation'
 import VideoScreen from '../screens/GoVideoScreen'
-
+// import SignupScreen from '../screens/SignupScreen'
 const Stack = createStackNavigator()
 
 export default function Home() {
