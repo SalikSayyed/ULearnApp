@@ -3,7 +3,8 @@ import Input from '../components/InputComponent'
 import { View, StyleSheet } from 'react-native'
 
 const LoginScreen2 = ({}) => {
-  const [text, changeText] = React.useState('')
+  const [mail, changeMail] = React.useState('')
+  const [pass, changePass] = React.useState('')
   const Textplaceholder = 'Input Here'
 
   return (
@@ -11,19 +12,19 @@ const LoginScreen2 = ({}) => {
       <View style={styles.container1}>
         <Input
           iconName="mail-outline"
-          hide={true}
-          value={text}
-          onChangeValue={changeText}
+          hide={false}
+          value={mail}
+          onChangeValue={changeMail}
           placeholder={Textplaceholder}
         />
       </View>
 
       <View style={styles.container2}>
         <Input
-          iconName="mail-outline"
+          iconName="lock-closed-outline"
           hide={true}
-          value={text}
-          onChangeValue={changeText}
+          value={pass}
+          onChangeValue={changePass}
           placeholder={Textplaceholder}
         />
       </View>

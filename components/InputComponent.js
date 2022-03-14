@@ -12,7 +12,7 @@ const InputComponent = ({ hide, iconName, value, onChangeValue, customStyle, ...
         style={[styles.input, customStyle]}
         onChangeText={onChangeValue}
         value={value}
-        secureTextEntry={protect}
+        secureTextEntry={hide && protect}
         {...otherProps}
       />
       {hide && (
