@@ -16,6 +16,7 @@ const LoginScreen = ({ navigation }) => {
         customStyle={styles.inputStyle}
       />
       <Button tagName="Test Login" onPress={() => navigation.push('PickFavourite')} />
+      <Button tagName="Test Login2" onPress={() => navigation.push('SignupScreen')} />
     </>
   )
 }

@@ -68,8 +68,8 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    marginVertical: 30,
-    marginHorizontal: 20,
+    marginVertical: 10,
+    marginHorizontal: 10,
   },
   labelStyle: {
     justifyContent: 'center',
