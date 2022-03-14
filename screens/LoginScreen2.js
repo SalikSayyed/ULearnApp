@@ -3,7 +3,7 @@ import Input from '../components/InputComponent'
 import { View, StyleSheet } from 'react-native'
 
 const LoginScreen2 = ({}) => {
-  const [text, changeText] = React.useState(' ')
+  const [text, changeText] = React.useState('')
   const Textplaceholder = 'Input Here'
 
   return (
