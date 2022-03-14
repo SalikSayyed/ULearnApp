@@ -27,6 +27,7 @@ export default function Home() {
       screenOptions={{ headerShown: false, detachPreviousScreen: true }}
     >
       <Stack.Screen name="CreateAccount" component={LoginScreen} />
+      {/*<Stack.Screen name="CreateAccount" component={LoginScreen} /> */}
       {/*default initial route ^ */}
       <Stack.Screen name="PickFavourite" component={IntrestSelection} />
       <Stack.Screen name="SetNewPassword" component={TransactionScreen} />
@@ -36,6 +37,7 @@ export default function Home() {
       <Stack.Screen name="MainTabScreen" component={TabNavigator} />
       <Stack.Screen name="MainVideoCourse" component={VideoScreen} />
       <Stack.Screen name="ComponentAndScreenTest" component={VideoScreen} />
+      <Stack.Screen name="LiveCall" component={TransactionScreen} />
       {/* change this to your testing component*/}
     </Stack.Navigator>
   )
