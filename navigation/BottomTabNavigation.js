@@ -7,7 +7,7 @@ import MyCourseScreen from '../screens/MyCourseScreen'
 import TransactionSuccesScreen from '../screens/TransactionSuccessScreen'
 import CourseSearchResult from '../screens/CourseSearchResult'
 import Color from '../config/Colors'
-import SignupScreen from '../screens/SignupScreen'
+import ExploreScreen from '../screens/ExploreScreen'
 // import SignupScreen from '../screens/SignupScreen'
 // import InterestSelection from '../components/IntrestsSelection'
 // import SocialMedia from '../components/SocialMedia'
@@ -34,7 +34,7 @@ export default function App() {
       >
         <Tab.Screen
           name="Explore"
-          component={SignupScreen}
+          component={ExploreScreen}
           options={{
             tabBarIcon: ({ focused, color }) => (
               <OctIcons
