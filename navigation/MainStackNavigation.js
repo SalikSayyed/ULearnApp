@@ -6,7 +6,7 @@ import LoginScreen from '../screens/LoginScreen'
 import IntrestSelection from '../screens/PickFavouriteScreen'
 import TabNavigator from '../navigation/BottomTabNavigation'
 import VideoScreen from '../screens/GoVideoScreen'
-// import SignupScreen from '../screens/SignupScreen'
+import SignupScreen from '../screens/SignupScreen'
 const Stack = createStackNavigator()
 
 export default function Home() {
@@ -38,6 +38,7 @@ export default function Home() {
       <Stack.Screen name="MainVideoCourse" component={VideoScreen} />
       <Stack.Screen name="ComponentAndScreenTest" component={VideoScreen} />
       <Stack.Screen name="LiveCall" component={TransactionScreen} />
+      <Stack.Screen name="SignupScreen" component={SignupScreen} />
       {/* change this to your testing component*/}
     </Stack.Navigator>
   )

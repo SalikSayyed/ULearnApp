@@ -14,6 +14,9 @@ export default function Home({ navigation }) {
         <View style={styles.buttonView}>
           <Button title="GO VIDEO" onPress={() => navigation.push('MainVideoCourse')} />
         </View>
+        <View style={styles.buttonView}>
+          <Button title="Signup Screen" onPress={() => navigation.push('SignupScreen')} />
+        </View>
       </View>
     </View>
   )
