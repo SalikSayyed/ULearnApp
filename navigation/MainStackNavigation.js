@@ -2,8 +2,8 @@ import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
 import CourseListScreen from '../screens/ExploreScreen'
 import TransactionScreen from '../screens/TransactionSuccessScreen'
-//import LoginScreen from '../screens/LoginScreen'
-import CoursePreview from '../screens/CoursePreview'
+import LoginScreen from '../screens/LoginScreen'
+//import CoursePreview from '../screens/CoursePreview'
 import IntrestSelection from '../screens/PickFavouriteScreen'
 import TabNavigator from '../navigation/BottomTabNavigation'
 import VideoScreen from '../screens/GoVideoScreen'
@@ -25,7 +25,7 @@ export default function Home() {
       animationEnabled={true}
       screenOptions={{ headerShown: false, detachPreviousScreen: true }}
     >
-      <Stack.Screen name="CreateAccount" component={CoursePreview} />
+      <Stack.Screen name="CreateAccount" component={LoginScreen} />
       {/*<Stack.Screen name="CreateAccount" component={LoginScreen} /> */}
       {/*default initial route ^ */}
       <Stack.Screen name="PickFavourite" component={IntrestSelection} />
